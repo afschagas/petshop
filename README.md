@@ -5,73 +5,60 @@
 
 O blog do doguito foi criado para tirar diversas dúvidas sobre o mundo pet.
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Sobre o Doguito!
 
-In the project directory, you can run:
+Esse projeto foi criado em um treinamento on-line recentemente, onde usamos o Framewrok React e o conceito de navegação em um SPA(Single Page Application).
 
-### `yarn start`
+## Os framework e as tecnologias utilzadas nesse projeto foram:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- NodeJS : Pode ser definido como um ambiente de execução JavaScript server-side.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- ReactJS : Uma biblioteca JavaScript para criar interfaces de usuário.
 
-### `yarn test`
+- Json-Server : Um pacote que pode ser instalado via npm, que você pode usar para criar um Webservice Rest Json simulando uma API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Axios: é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quando no Node.js.
 
-### `yarn build`
+- Eslint: É um ferramenta de análise que inclui a correção automática de problema no código digitado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Prettier: É uma ferramenta de formatação de código opinativo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Como usar:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para clonar e executar este projeto, você vai precisar do Git, Node.js + Yarn ou Npm instalado no seu computador.
 
-### `yarn eject`
+Na sua linha de comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Instalando a API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Clone este repositório
+$ git clone https://github.com/afschagas/petshop.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+####  Vá para o repositório
+$ cd petshop
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Instale dependênicias
+$ yarn install or npm install
 
-## Learn More
+#### Iniciar o Servidor
+$ json-server --watch db.json -p 3001
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Rodando na porta 3001
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Instale o Front-end
 
-### Code Splitting
+#### Clone este repositório
+$ git clone https://github.com/afschagas/petshop.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+####  Vá para o repositório
+$ cd petshop
 
-### Analyzing the Bundle Size
+#### Instale dependênicias
+$ yarn install or npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Run
+$ yarn start or npm start
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Rodando na porta 3000
