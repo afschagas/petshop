@@ -1,3 +1,10 @@
+![](./public/petshop.png)
+
+# Sobre o Doguito!
+<br>
+
+O blog do doguito foi criado para tirar diversas dúvidas sobre o mundo pet.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
