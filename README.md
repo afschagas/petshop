@@ -4,8 +4,7 @@
 <br>
 
 O blog do doguito foi criado para tirar diversas dúvidas sobre o mundo pet.
-
-
+![](./public/screenshot.png)
 
 # Sobre o Doguito!
 
